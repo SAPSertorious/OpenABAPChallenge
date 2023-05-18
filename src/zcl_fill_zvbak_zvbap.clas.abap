@@ -26,5 +26,6 @@ CLASS zcl_fill_zvbak_zvbap IMPLEMENTATION.
 
   METHOD test2.
     DATA(lt_zvbak) = test1( ).
+
   ENDMETHOD.
 ENDCLASS.
