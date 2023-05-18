@@ -21,6 +21,6 @@ CLASS zcl_fill_zvbak_zvbap IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD test2.
-  me->test1( ).
+  test1(  ).
   ENDMETHOD.
 ENDCLASS.
