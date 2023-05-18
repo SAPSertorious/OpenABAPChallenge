@@ -15,12 +15,12 @@ ENDCLASS.
 CLASS zcl_fill_zvbak_zvbap IMPLEMENTATION.
   METHOD test1.
     SELECT *
-    FROM zvbak
-    WHERE zauart = 'OR'
-    INTO TABLE @DATA(lt_sflight).
+      FROM zvbak
+      WHERE zauart = 'OR'
+      INTO TABLE @DATA(lt_sflight).
   ENDMETHOD.
 
   METHOD test2.
-  test1(  ).
+    test1( ).
   ENDMETHOD.
 ENDCLASS.
